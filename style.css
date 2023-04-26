@@ -17,9 +17,7 @@ footer{
   align-content: space-between;
 }
 
-.sky-bad{
-  color: whitesmoke;
-}
+
 
 .sky-good{
   font-weight: bold;
@@ -33,13 +31,6 @@ footer{
 }
 
 
-.lightParagraph-bad{
-  margin: 2em;
-  background-color: #B5DCEB;
-  color: #888585;
-  padding: 2em 5em;
-  
-}
 
 .lightParagraph-good{
   margin: 2em;
@@ -48,11 +39,6 @@ footer{
   padding: 2em 5em;
 }
 
-.darkParagraph-bad{
-  background-color: #002D3D;
-  color: #3E3838;
-  padding: 2em 5em;
-}
 
 .darkParagraph-good{
   background-color: #002D3D;
@@ -60,17 +46,11 @@ footer{
   padding: 2em 5em;
 }
 
-.lighthouseInWater-bad{
-  max-height: 70vh;
-}
-
 .lighthouseInWater-good{
   max-height: 70vh;
 }
 
-.birdLighthouse-bad{
-  max-height: 50vh;
-}
+
 
 .birdLighthouse-good{
   max-height: 50vh;
@@ -86,7 +66,7 @@ footer{
 }
 
 @media screen and ( max-width: 768px ) {
-  .lightParagraph-bad, .lightParagraph-good, .darkParagraph-bad, .darkParagraph-good {
+  .lightParagraph-good, .darkParagraph-good {
     padding: 2em;
   }
 }
